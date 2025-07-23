@@ -2,40 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>College Contact Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ABC College - Home</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <header>
-    <h1>XYZ College - Contact Us</h1>
+    <h1>ABC College</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <div class="container">
-    <div class="info">
-      <h2>Contact Information</h2>
-      <p><strong>Address:</strong> 123 College Road, City, State, ZIP</p>
-      <p><strong>Phone:</strong> +91-1234567890</p>
-      <p><strong>Email:</strong> contact@xyzcollege.edu</p>
-    </div>
+  <main>
+    <section>
+      <h2>Welcome to ABC College</h2>
+      <p>Your journey to excellence starts here.</p>
+    </section>
+  </main>
 
-    <h2>Send Us a Message</h2>
-    <form id="contactForm">
-      <label for="name">Your Name:</label>
-      <input type="text" id="name" required />
-
-      <label for="email">Your Email:</label>
-      <input type="email" id="email" required />
-
-      <label for="message">Your Message:</label>
-      <textarea id="message" rows="5" required></textarea>
-
-      <button type="submit">Submit</button>
-    </form>
-    <div id="response"></div>
-  </div>
-
-  <script src="script.js"></script>
+  <footer>
+    <p>&copy; 2025 ABC College. All rights reserved.</p>
+  </footer>
 </body>
 </html>
